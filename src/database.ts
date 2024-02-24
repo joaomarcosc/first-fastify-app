@@ -7,7 +7,7 @@ const connection =
     : { connectionString: env.DATABASE_URL }
 
 export const config: Knex.Config = {
-  client: 'sqlite',
+  client: env.DATABASE_CLIENT,
   connection,
   migrations: {
     extension: 'ts',
