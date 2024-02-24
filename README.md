@@ -1,0 +1,1 @@
+# Application to practice nodejs with fastify and sqlite
